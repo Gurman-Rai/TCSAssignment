@@ -1,0 +1,11 @@
+langchain-community
+langchain-core
+pypdf
+langchain-text-splitters
+langchain-ollama
+langchain-chroma
+chromadb
+mcp>=1.30,<2
+langgraph
+streamlit
+jsonschema
