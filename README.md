@@ -466,6 +466,16 @@ Seed/index commands apply to fresh installations; skip them when persistence is 
 
 Potential follow-ups: structured routing with a stronger model, retrieval reranking/thresholds, conversation memory, authentication/authorization, evaluation suites, tracing, containerization, and automated tests/CI. These are not implemented in this cleanup pass.
 
+## Next Steps
+
+As next steps, I'd focus mainly on production readiness and performance.
+
+I'd add a relevance threshold or reranker to improve policy retrieval, conversation memory for multi-turn support interactions, and stronger evaluation and observability.
+
+I'd also add authentication and access controls around customer information.
+
+Finally, I'd optimize latency by reducing repeated process initialization and exploring persistent MCP connections and parallel agent execution on stronger hardware.
+
 ## Security / Privacy Notes
 
 Models run locally through Ollama and the supplied customer dataset is synthetic. No paid cloud LLM is required. The demo does not claim production security or compliance and has no authentication/access-control layer. Restrict local data/services appropriately before adapting it to real records.
@@ -474,6 +484,6 @@ No secrets or API keys are needed. Local environment files and generated persist
 
 ## Demo
 
-> Demo video: `<ADD_DEMO_VIDEO_URL>`
+> Demo video: `<https://www.youtube.com/watch?v=KVvwFkqOUE0>`
 
 Replace this placeholder when the assignment demo URL is available.
