@@ -486,4 +486,4 @@ No secrets or API keys are needed. Local environment files and generated persist
 
 > Demo video: `<https://www.youtube.com/watch?v=KVvwFkqOUE0>`
 
-Replace this placeholder when the assignment demo URL is available.
+
